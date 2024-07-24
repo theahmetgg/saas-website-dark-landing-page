@@ -21,6 +21,10 @@ const items = [
   },
 ];
 
-export const FAQs = () => {
-  return null;
-};
+const FAQs = () => {
+  return (
+    <div>FAQs</div>
+  )
+}
+
+export default FAQs

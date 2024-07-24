@@ -1,5 +1,7 @@
 import appScreen from "../assets/images/app-screen.png";
 
-export const ProductShowcase = () => {
-  return null;
+const ProductShowcase = () => {
+  return <div>ProductShowcase</div>;
 };
+
+export default ProductShowcase;

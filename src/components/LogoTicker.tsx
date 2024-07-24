@@ -14,6 +14,10 @@ const images = [
   { src: apexLogo, alt: "Apex Logo" },
 ];
 
-export const LogoTicker = () => {
-  return null;
-};
+const LogoTicker = () => {
+  return (
+    <div>LogoTicker</div>
+  )
+}
+
+export default LogoTicker

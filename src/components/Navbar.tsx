@@ -1,3 +1,7 @@
-export const Navbar = () => {
-  return null;
-};
+const Navbar = () => {
+  return (
+    <div>Navbar</div>
+  )
+}
+
+export default Navbar

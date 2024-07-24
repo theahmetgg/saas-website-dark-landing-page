@@ -16,6 +16,10 @@ const features = [
   },
 ];
 
-export const Features = () => {
-  return null;
-};
+const Features = () => {
+  return (
+    <div>Features</div>
+  )
+}
+
+export default Features
