@@ -1,9 +1,10 @@
-import acmeLogo from "../assets/images/acme.png";
-import quantumLogo from "../assets/images/quantum.png";
-import echoLogo from "../assets/images/echo.png";
-import celestialLogo from "../assets/images/celestial.png";
-import pulseLogo from "../assets/images/pulse.png";
-import apexLogo from "../assets/images/apex.png";
+import acmeLogo from "@images/acme.png";
+import quantumLogo from "@images/quantum.png";
+import echoLogo from "@images/echo.png";
+import celestialLogo from "@images/celestial.png";
+import pulseLogo from "@images/pulse.png";
+import apexLogo from "@images/apex.png";
+import Image from "next/image";
 
 const images = [
   { src: acmeLogo, alt: "Acme Logo" },
@@ -16,8 +17,18 @@ const images = [
 
 const LogoTicker = () => {
   return (
-    <div>LogoTicker</div>
-  )
-}
+    <div>
+      {images.map((image, index) => (
+        <Image
+          key={index}
+          src={image.src}
+          alt={image.alt}
+          width={50}
+          height={50}
+        />
+      ))}
+    </div>
+  );
+};
 
-export default LogoTicker
+export default LogoTicker;
