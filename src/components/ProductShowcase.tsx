@@ -3,7 +3,7 @@ import appScreen from "../assets/images/app-screen.png";
 
 const ProductShowcase = () => {
   return (
-    <div className="bg-black text-white  bg-gradient-to-b from-black to-[#5D2CA8] py-[72px] py-24">
+    <div className="bg-black text-white  bg-gradient-to-b from-black to-[#5D2CA8] py-[72px] sm:py-24">
       <div className="container">
         <h2 className="text-center text-5xl sm:text-6xl font-bold tracking-tighter">
           Intuitive interface
@@ -15,7 +15,11 @@ const ProductShowcase = () => {
             one task at a time.
           </p>
         </div>
-        <Image src={appScreen} alt="The product screenshot" className="mt-14  mx-auto" />
+        <Image
+          src={appScreen}
+          alt="The product screenshot"
+          className="mt-14  mx-auto"
+        />
       </div>
     </div>
   );
