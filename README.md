@@ -6,7 +6,9 @@ Figma Design is [Here](https://www.figma.com/design/s9QYMbcamxQx5r2ftfklAq/Saas-
 This project utilizes the following technologies:
 
 Next.js: Ideal for high-performance React applications.
+
 Framer Motion: Enhances user experience with fluid animations.
+
 Dark Mode Application: Includes color scheme selection and accessibility considerations.
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
